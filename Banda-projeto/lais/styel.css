@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.img-day6{
+width: 100%;
+
+}
+
+.sobre{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
+     
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+     line-height: 35px;
+     display: flex;
+}
+.fav{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    
+}
+.music{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 8px;
+    height: 100px;
+}
+.music2{
+    display: flex;
+     justify-content: center;
+     gap: 8px;
+
+}
+
+.audio{
+    width: 41%;
+     
+}
+.album1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.album2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% ;
+}
+.album3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% ;
+}
+.album4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% ;
+}
+.mvs{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px; 
+    
+}
+.videos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+

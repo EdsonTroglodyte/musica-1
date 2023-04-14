@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+    }
+    
+    #img-lucas{
+        background-image: url(./img/Melim-clipe-novo.png);
+        background-size:cover ;
+        width: 40rem;
+        height: 26rem;
+        display: flex;
+        align-items: end;
+        gap: 15px;
+    }
+    #img-lucas img{
+        border-radius: 50%;
+    
+    }
+    #img-Amanda{
+        background-image: url(./img/Lagum\ \(1\).jpg);
+        background-size:cover ;
+        width: 40rem;
+        height: 26rem;
+        display: flex;
+        align-items: end;
+        gap: 15px;
+    }
+    #img-Amanda img{
+        border-radius: 50%;
+    
+    }
+    #img-Lais{
+        background-image: url(./img/day6.png);
+        background-size:cover ;
+        width: 40rem;
+        height: 26rem;
+        display: flex;
+        align-items: end;
+        gap: 15px;
+    
+    }
+    #img-Lais img{
+        border-radius: 50%;
+    
+    }
+    #img-Edson{
+        background-image: url(./img/mamonas\ assassinas.jpg);
+        background-size:cover ;
+        width: 40rem;
+        height: 26rem;
+        display: flex;
+        align-items: end;
+        gap: 15px;
+    }
+    #img-Edson img{
+        border-radius: 50%;
+    
+    }
+    
+    
+    section a {
+        
+        padding-top: 20rem ;
+        text-decoration: none;
+        color: white;
+        padding-bottom: .5rem;
+    }
+    section h1{
+    
+        padding: 10px;
+    }
+    
+    div p{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    #imagens{
+       display: flex;
+       justify-content: center;
+       gap: 0.5rem;
+    padding-bottom: 2rem;
+    }
+    .nome{
+        height: 2.4rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+        background-color: beige;
+        color: black;
+        border-radius: 4px;
+        padding: 0px 4px 4px 4px;
+        border: 2px solid black;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 4px;
+    }
+    
+    

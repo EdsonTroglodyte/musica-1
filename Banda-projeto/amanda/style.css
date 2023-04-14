@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Schibsted+Grotesk:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   background-color: #F4EEE0;
+}
+main{
+    display: flex;
+    gap: .8rem;
+    background-color: #F4EEE0;
+    width: 80vw;
+    margin: auto;
+   
+}
+.box1 {
+   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/lagum.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box1 h1{
+    
+    font-size: 9rem;
+    color: burlywood;
+    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Puppies Play', cursive;
+    font-weight: 400;
+}
+.box2{
+    font-size: 9rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFBF5;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    height: 23rem;
+    margin: auto;
+}
+.box2 p{
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+   
+}
+.box3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    height: 40vh;
+    background-color: #FFFBF5;
+    width: 100%;
+    padding-top: 1rem;
+    
+}
+.box3 h1{
+    padding-left: 1rem; 
+}
+.som{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+.som1{
+    background-color: #f3f3f3;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 3.4rem;
+    width: 32rem;
+}
+.box4{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFBF5;
+    padding-top: 1rem;
+    width: 100%;
+    height: 80vh;
+}
+.box4 h1{
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 1rem;
+   
+}
+.btn{
+    border: none;
+    border-radius: 6rem;
+    height: 1.6rem;
+    margin-bottom: .9rem;
+    margin-right: 1rem;
+}
+ path{
+    fill: black;
+    transition: all .25s ease-in-out;
+}
+button:hover path{
+    fill: red;
+}
+/* button .like{
+    color: red;
+}
+button .like svg{
+    animation: transitionLike 1s ease-in;
+}
+button .like path{
+    fill: red;
+    
+}
+@keyframes transitionLike {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
+
+.icon{
+    height: 1.6rem;
+}
+.img{
+    height: 3.2rem;
+    width: 3.3rem;
+    border-radius: 3rem;
+}
+.sounds{
+    width: 80%;
+  
+}
+
+
+ @media (max-width: 900px){
+    .box1{
+      height: 50%;
+     
+    }
+    .box2 {
+      height: 50%;
+    }
+    .box3 {
+        height: 50%;
+      }
+    .box4 {
+        height: 50%;
+      }
+      .clipes{
+        width: 90%;
+      }
+      .som1{
+        width: 90%;
+        margin-bottom: 1rem;
+      }
+ }
+ 
+ 
+
+ 
